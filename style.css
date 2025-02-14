@@ -1,0 +1,91 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+.logo {
+    font-size: 70px;
+}
+
+.logo img {
+    height: 100px;
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+nav {
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.container img {
+    width: 100%;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.icontainer {
+    display: flex;
+    grid-template-columns: repeat(2, 12%);
+}
+
+.bikes {
+    background-color: gray;
+    margin: none;
+    padding: none;
+}
+
+.watches {
+    background-color: gray;
+    width: 100%;
+}
+
+.row1 {
+    display: flex;
+    margin: 10px;
+}
+
+.product {
+    border: 2px solid black;
+    margin: 4px;
+    padding: 8px;
+    text-align: center;
+    color: black solid;
+    border-radius: 15px;
+}
+
+.product button {
+    background-color: rgb(230, 234, 14);
+    border-radius: 25px;
+}
+
+.product button:hover {
+    background-color: cyan;
+}
+
+.product-list img {
+    display: flex;
+    border: 2px solid black;
+}
+
+.li {
+    border: 2px solid red;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#cartItems img {
+    display: flex;
+    border: 2px solid black;
+}
+
+.st {
+    border: 2px solid red;
+}
